@@ -1,7 +1,7 @@
 # Environment
 * Git
 * VSCord
-拡張機能:Zenn Editor
+extension:Zenn Editor
 * Zenn CLI
 [📘 How to use](https://zenn.dev/zenn/articles/zenn-cli-guide)
 ```
@@ -13,3 +13,9 @@ npm install zenn-cli
 npx zenn init
 npx zenn new:article --slug huga-huga-hu
 ```
+
+# Image file restrictions
+* File size must be within 3MB
+* Supported extensions are `.png` `.jpg` `.jpeg` `.gif` only
+Specification method
+![](/images/FRICK.png)
