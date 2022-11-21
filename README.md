@@ -17,5 +17,7 @@ npx zenn new:article --slug huga-huga-hu
 # Image file restrictions
 * File size must be within 3MB
 * Supported extensions are `.png` `.jpg` `.jpeg` `.gif` only
-Specification method
+```
+# Specification method
 ![](/images/FRICK.png)
+```
