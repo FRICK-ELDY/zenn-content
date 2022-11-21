@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/FRICK-ELDY/zenn-content/issues"
   },
-  "homepage": "https://github.com/FRICK-ELDY/zenn-content#readme"
+  "homepage": "https://github.com/FRICK-ELDY/zenn-content#readme",
+  "dependencies": {
+    "zenn-cli": "^0.1.132"
+  }
 }
