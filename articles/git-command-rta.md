@@ -16,4 +16,44 @@ NeosVR
 
 もし何かの為になれば幸いです。
 
-# 
+# Gitでよく使うコマンド
+
+```
+#GitHubで作ったrepositoryをPCにクローンする
+git clone 
+
+git status
+
+git checkout master
+
+git fetch
+
+git pull
+
+git merge --ff-only origin/master
+
+if(! "Your branch is up to date with 'origin/master'." ){ // 掃除
+    git checkout .
+    git clean -df
+}
+
+git checkout -b issue-xxxx-hoge
+
+git push -u origin issue-xxxx-hoge
+
+git add .
+
+git commit -m ""
+
+git commit --amend
+
+git push 
+
+git push -f
+
+git rebase master
+
+git reset --hard @~1
+
+git stash
+```
