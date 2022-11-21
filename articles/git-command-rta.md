@@ -10,7 +10,7 @@ published: false
 https://qiita.com/advent-calendar/2022/frick
 
 今回のアドベントカレンダーでは以下の技術の話をして行きます。
-Git × GitHub Actions × Docker × nginx ×
+Git × GitHub Actions × Docker × NginX ×
 Elixir/Phoenix × PostgreSQL × TailWindCSS × DaisyUI × AlpineJS × 
 NeosVR
 
