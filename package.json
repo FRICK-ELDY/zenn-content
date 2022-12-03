@@ -1,7 +1,7 @@
 {
   "name": "zenn-content",
   "version": "1.0.0",
-  "description": "",
+  "description": "* Git * VSCord extension:Zenn Editor * Zenn CLI [📘 How to use](https://zenn.dev/zenn/articles/zenn-cli-guide) ``` npm init --yes npm install zenn-cli ``` # Zenn Command  ``` npx zenn init npx zenn new:article --slug huga-huga-hu ```",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/FRICK-ELDY/zenn-content#readme",
   "dependencies": {
-    "zenn-cli": "^0.1.132"
+    "zenn-cli": "^0.1.133"
   }
 }
