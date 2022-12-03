@@ -2,6 +2,12 @@
 * Git
 * VSCord
 extension:Zenn Editor
+* NodeJS
+```
+sudo apt update
+sudo apt install nodejs
+sudo apt install npm
+```
 * Zenn CLI
 [📘 How to use](https://zenn.dev/zenn/articles/zenn-cli-guide)
 ```
