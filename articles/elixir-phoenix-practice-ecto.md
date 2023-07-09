@@ -211,8 +211,8 @@ mix ecto.migrate
 localhost:4000/users を確認
 ![](/images/phoenix/phx.gen.live.png)
 追加されてた！
-![](/images/phoenix/phx.gen.live2.png)
-追加も出来る！
+![](/images/phoenix/phx.gen.live2.png) 
+NewUserも出来る！
 
 **GitHubにPush**
 折角なので、Issueの作成からプルリク、コミットまで。
