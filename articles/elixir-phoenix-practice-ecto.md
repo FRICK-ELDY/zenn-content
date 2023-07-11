@@ -101,7 +101,7 @@ https://github.com/FRICK-ELDY/self_access_01
 **remoteに追加してGitHubにPush**
 ```
 git remote add origin git@github.com:FRICK-ELDY/self_access_01.git
-git push -u origin/master
+git push -u origin master
 ```
 :::details 現在のgit status (この状態がスタート)
 ```
