@@ -33,7 +33,7 @@ Phoenixが立ち上がることを確認
 mix phx.server
 ```
 `http://127.0.0.1:4000/` にアクセスし、正常に立ち上がることを確認
-## ①キー入力を取得するLiveViewを作成
+## ②キー入力を取得するLiveViewを作成
 `lib/key_input_api_web/`に`live`フォルダを作成
 `lib/key_input_api_web/live/key_input_live.ex`を新規作成
 ```elixir
@@ -105,7 +105,7 @@ defmodule KeyInputApiWeb.Router do
 end
 ```
 `http://127.0.0.1:4000/key_input`にアクセスして、key_inputが表示されたらOK
-## ②Genserverでキー入力を保存
+## ③Genserverでキー入力を保存
 `lib/key_input_api_web/key_input_storage.ex`を作成
 ```Elixir
 defmodule KeyInputApiWeb.KeyInputStorage do
@@ -183,7 +183,7 @@ end
 mix assets.deploy
 ```
 これで、入力したキーがGenserverに保存される。
-## ③API取得用のエンドポイントを作成
+## ④API取得用のエンドポイントを作成
 `key_input_api/lib/key_input_api_web/controllers/key_input_controller.ex`
 を新規作成し、コードを書く。
 ```Elixir
